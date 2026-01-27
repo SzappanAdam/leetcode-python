@@ -15,6 +15,7 @@ def longest_common_prefix(strs: list[str]) -> str:
                 return ""
     return prefix
 
-print(longest_common_prefix(["flower", "flow", "flight"]))  # "fl"
-print(longest_common_prefix(["dog", "racecar", "car"]))     # ""
-print(longest_common_prefix(["interspecies", "interstellar", "interstate"]))  # "inters"
+if __name__ == "__main__":
+    print(longest_common_prefix(["flower", "flow", "flight"]))  # "fl"
+    print(longest_common_prefix(["dog", "racecar", "car"]))     # ""
+    print(longest_common_prefix(["interspecies", "interstellar", "interstate"]))  # "inters"
